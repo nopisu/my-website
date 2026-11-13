@@ -1,0 +1,68 @@
+.home {
+  background-color: #fff4b0;
+}
+
+.about {
+  background-color: #d9feff;
+}
+
+.portfolio {
+  background-color: #c4cfff;
+}
+
+.contact {
+  background-color: #c9ffd1;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-style: italic;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.page-gif {
+  display: block;
+  width: 200px;
+  height: auto;
+  margin: 30px auto;
+}
+
+h1 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
